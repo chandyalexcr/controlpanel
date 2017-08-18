@@ -1,0 +1,16 @@
+{
+  "name": "gochandy/php-framework",
+    "description": "A PHP Framework project made for GoChandy.",
+    "version": "1.0.0",
+    "keywords": ["framework", "gochandy", "php framework"],
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
